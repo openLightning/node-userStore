@@ -1,0 +1,23 @@
+{
+  "name": "node-userStore",
+  "version": "0.3.0",
+  "author": "Isaac Reid-Guest",
+  "description": "A simple user storage system",
+  "bin": {
+    "http-server": "./bin/http-server"
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openLightning/http-server.git"
+  },
+  "dependencies" : {
+    "express"   :  "*",
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
