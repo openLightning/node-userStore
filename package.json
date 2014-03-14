@@ -4,7 +4,8 @@
   "author": "Isaac Reid-Guest",
   "description": "A simple user storage system",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+		"test": "echo"
   },
   "repository": {
     "type": "git",
