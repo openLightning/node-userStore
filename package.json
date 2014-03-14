@@ -3,9 +3,6 @@
   "version": "0.3.0",
   "author": "Isaac Reid-Guest",
   "description": "A simple user storage system",
-  "bin": {
-    "http-server": "./bin/http-server"
-  },
   "scripts": {
     "start": "node app"
   },
@@ -15,6 +12,7 @@
   },
   "dependencies" : {
     "express"   :  "*",
+    "node-persist": "*"
   },
   "license": "MIT",
   "engines": {
