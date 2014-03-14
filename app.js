@@ -12,12 +12,15 @@ function existingUser(username){
 }
        
 function newUser(username, password){
-	var user = {
-		name:username,
-		pass:password,
-		data:{
-			
-		}
+	if(!existingUser(username)){
+		var user = {
+			name:username,
+			pass:password,
+			data:{}
+		};
+		storage.setItem(username,user);
+	}else{
+		return false;
 	}
 }
 
